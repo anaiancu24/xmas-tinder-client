@@ -5,6 +5,7 @@ import SignupPage from './components/auth/SignupPage'
 import LogoutPage from './components/auth/LogoutPage'
 import TopBar from './components/TopBar'
 import './App.css';
+import TreeContainer from './components/TreeContainer';
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
           <Route exact path="/login" component={LoginPage} />
           <Route exact path="/logout" component={LogoutPage} />
           <Route exact path="/signup" component={SignupPage} />
+          <Route exact path="/trees" component={TreeContainer} />
+
  
 
           </main>
